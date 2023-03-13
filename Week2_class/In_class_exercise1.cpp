@@ -1,6 +1,6 @@
 #include <iostream>
-void print2largest(int arr[], int arr_len);
-void get2largest(int arr[], int arr_len, int* first, int* second);
+#include "declare.h"
+
 int main(void)
 {
 	//case1 ) arr1[] = { 10,4,3,50,23,90 }
@@ -23,33 +23,4 @@ int main(void)
 	get2largest(arr3, sizeof(arr3) / sizeof(int), &first, &second);
 	std::cout << "Output: " << first << ", " << second << "\n" << std::endl;
 	return 0;
-}
-void print2largest(int arr[], int arr_len)
-{
-	std::cout << "Input: arr[] = {";
-	for (int i = 0; i < arr_len; i++) {
-		if (i != arr_len - 1)
-			std::cout << arr[i] << ", ";
-		else
-			std::cout << arr[i] << "}\n";
-	}
-
-}
-void get2largest(int arr[], int arr_len, int* first, int* second) //by bubble sort
-{
-	for (int i = 0; i < arr_len; i++)
-	{
-		for (int j = 0; j < arr_len - i - 1; j++)
-		{
-			if (arr[j] > arr[j + 1])
-			{
-				int temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-			}
-		}
-	}
-
-	*first = arr[arr_len - 1];
-	*second = arr[arr_len - 2];
 }
