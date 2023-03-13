@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\01-1">
       <UniqueIdentifier>{fd886343-1b74-4af5-81f1-7dfece00fe3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\01-2,3">
+      <UniqueIdentifier>{e9865de0-7485-45f4-a8de-7d5327183940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01-5">
+      <UniqueIdentifier>{e0ae29ce-86d1-4e47-a031-1a8bf7f144f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -39,5 +45,40 @@
     <ClCompile Include="problem01_1_3.cpp">
       <Filter>소스 파일\01-1</Filter>
     </ClCompile>
+    <ClCompile Include="problem01_1_4.cpp">
+      <Filter>소스 파일\01-1</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverloading.cpp">
+      <Filter>소스 파일\01-2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap.cpp">
+      <Filter>소스 파일\01-2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue1.cpp">
+      <Filter>소스 파일\01-2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue3.cpp">
+      <Filter>소스 파일\01-2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="problem01_3_1.cpp">
+      <Filter>소스 파일\01-2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="problem01_3_2.cpp">
+      <Filter>소스 파일\01-2,3</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp1.cpp">
+      <Filter>소스 파일\01-5</Filter>
+    </ClCompile>
+    <ClCompile Include="problem01_4_sorcefile1.cpp">
+      <Filter>소스 파일\01-5</Filter>
+    </ClCompile>
+    <ClCompile Include="problem01_4_sorcefile2.cpp">
+      <Filter>소스 파일\01-5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="company.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

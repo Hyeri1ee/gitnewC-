@@ -1,1 +1,2 @@
 C:\Users\Galaxy\source\repos\c++열혈\chap01\x64\Debug\chap01.exe
+C:\Users\Galaxy\source\repos\c++열혈\gitnewC-\chap01\x64\Debug\chap01.exe
