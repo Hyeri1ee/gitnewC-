@@ -1,2 +1,2 @@
-﻿  swap.cpp
-  Week2_class.vcxproj -> C:\Users\Galaxy\source\repos\c++열혈\gitnewC-\Week2_class\x64\Debug\Week2_class.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Week2_class.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Week2_class.vcxproj -> C:\Users\Galaxy\source\repos\c++열혈\gitnewC-\Week2_class\x64\Debug\Week2_Mon_class.exe

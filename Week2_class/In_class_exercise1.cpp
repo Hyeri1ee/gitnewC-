@@ -1,5 +1,5 @@
 #include <iostream>
-#include "declare.h"
+#include "exercise1Func.cpp" //not using declare.h
 
 int main(void)
 {

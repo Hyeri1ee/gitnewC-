@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\01-5">
       <UniqueIdentifier>{e0ae29ce-86d1-4e47-a031-1a8bf7f144f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\OOP PROJECT">
+      <UniqueIdentifier>{02d2db17-5389-4c25-b199-69c2870fcdc4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="problem01_4_sorcefile2.cpp">
       <Filter>소스 파일\01-5</Filter>
+    </ClCompile>
+    <ClCompile Include="Account_management.cpp">
+      <Filter>소스 파일\OOP PROJECT</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

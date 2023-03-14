@@ -13,27 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\class">
+    <Filter Include="소스 파일\class_Mon">
+      <UniqueIdentifier>{d65d05cc-9117-41c5-b05d-dd881854b5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\class_Mon\class">
       <UniqueIdentifier>{80fab6a6-42c5-4764-8f1d-a491f399109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\class_Wed">
+      <UniqueIdentifier>{868eb6b8-ff7f-4de2-b8d5-8b7fb9cdf0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\class_Wed\class">
+      <UniqueIdentifier>{a7408dbc-7197-4965-ac03-d62b3a4cabb9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="In_class_exercise1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FindingCurrentTime.cpp">
-      <Filter>소스 파일\class</Filter>
+    <ClCompile Include="FindingMilliseconds.cpp">
+      <Filter>소스 파일\class_Mon\class</Filter>
     </ClCompile>
     <ClCompile Include="Aguessinggame.cpp">
-      <Filter>소스 파일\class</Filter>
+      <Filter>소스 파일\class_Mon\class</Filter>
+    </ClCompile>
+    <ClCompile Include="FindingcurrentTime.cpp">
+      <Filter>소스 파일\class_Mon\class</Filter>
     </ClCompile>
     <ClCompile Include="swap.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\class_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="In_class_exercise1.cpp">
+      <Filter>소스 파일\class_Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise1Func.cpp">
+      <Filter>소스 파일\class_Mon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="declare.h">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\class_Mon</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
