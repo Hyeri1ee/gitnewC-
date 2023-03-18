@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\03-1">
+      <UniqueIdentifier>{923f9be6-21f3-4fe8-8593-16c04b35a9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03-2">
+      <UniqueIdentifier>{e6696b9f-d8f8-4e07-8360-ab5da46c5203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03-2\problem03_2_1">
+      <UniqueIdentifier>{24c4fb6f-f822-4abc-b529-b2b9e1b1fd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03-2\problem02_2_2">
+      <UniqueIdentifier>{8e27f0f8-33c0-4c82-86c5-858a45d7bbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03-3">
+      <UniqueIdentifier>{41cd1040-6647-4a22-aece-1648d62afa21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RacingCarClassBase.cpp">
+      <Filter>Source Files\03-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\03-2</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingMain.cpp">
+      <Filter>Source Files\03-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes1..cpp">
+      <Filter>Source Files\03-2\problem03_2_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Printer.cpp">
+      <Filter>Source Files\03-2\problem02_2_2</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitSimulation.cpp">
+      <Filter>Source Files\03-3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h">
+      <Filter>Source Files\03-2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
