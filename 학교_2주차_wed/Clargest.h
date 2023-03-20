@@ -1,13 +1,12 @@
-#pragma once
+#ifndef __CLARGEST_H__
+#define __CLARGEST_H__
+using namespace std;
 class CLargest {
 private:
-	int arr[];
-	int arr_len;
-	int first;
-	int second;
+	int firstLarge;
+	int secondLarge;
 public:
-	CLargest(int arr[]);
-	void findLargest(int arr[], int arr_len);
-	void findLargestTwo(int arr[], int arr_len,int* first, int* second);
-	
+	int findLargest(int s[]);
+	void findLargestTwo(int s[]);
 };
+#endif

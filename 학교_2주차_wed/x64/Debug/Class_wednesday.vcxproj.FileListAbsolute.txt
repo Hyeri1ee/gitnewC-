@@ -1,1 +1,2 @@
 C:\Users\Galaxy\source\repos\Class_wednesday\x64\Debug\Class_wednesday.exe
+C:\Users\Galaxy\source\repos\c++열혈\gitnewC-\학교_2주차_wed\x64\Debug\Class_wednesday.exe

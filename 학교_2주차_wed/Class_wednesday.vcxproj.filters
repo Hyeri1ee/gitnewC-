@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\In-class Exercise">
+      <UniqueIdentifier>{cc052290-80c4-4a42-8446-437b6d317c7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -28,15 +31,15 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="Clargest.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files\In-class Exercise</Filter>
     </ClCompile>
-    <ClCompile Include="main2.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="Main2.cpp">
+      <Filter>Source Files\In-class Exercise</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Clargest.h">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files\In-class Exercise</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

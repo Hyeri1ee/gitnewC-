@@ -14,12 +14,14 @@ public:
 };
 int FruitSeller::SaleApples(int money)
 {
+	if (money < 0)
+		cout << "0보다 작은 금액을 전달할 수 없습니다." << endl;
 	int num = money / APPLE_PRICE;
 	numofApples -= num;
 	myMoney += money;
 	return num;
 }
-void FruitSeller::ShowSalesResult()
+void FruitSeller::ShowSalesResult() const
 {
 	cout << "남은 사과 : " << numofApples << endl;
 	cout << "판매 수익 : " << myMoney << endl;
@@ -43,6 +45,9 @@ public:
 };
 void FruitBuyer::InitMembers(int money)
 {
+	if (money < 0)
+		cout << "0보다 작은 금액을 전달할 수 없습니다." << endl;
+
 	myMoney = money;
 	numofApples = 0;
 }
@@ -51,7 +56,7 @@ void FruitBuyer::BuyApples(FruitSeller& seller, int money)
 	numofApples += seller.SaleApples(money);
 	myMoney -= money;
 }
-void FruitBuyer:: showBuyResult()
+void FruitBuyer::showBuyResult() const;
 {
 	cout << "현재 잔액: " << myMoney << endl;
 	cout << "사과 개수: " << numofApples << endl;

@@ -1,3 +1,2 @@
-﻿  Complete.cpp
-Complete.obj : error LNK2019: unresolved external symbol "public: double __cdecl Circle::getArea(void)const " (?getArea@Circle@@QEBANXZ) referenced in function main
-C:\Users\Galaxy\source\repos\Class_wednesday\x64\Debug\Class_wednesday.exe : fatal error LNK1120: 1 unresolved externals
+﻿  Main2.cpp
+  Class_wednesday.vcxproj -> C:\Users\Galaxy\source\repos\c++열혈\gitnewC-\학교_2주차_wed\x64\Debug\Class_wednesday.exe

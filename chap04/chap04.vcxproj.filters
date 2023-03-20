@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\04-1">
+      <UniqueIdentifier>{c8e80ba3-82a5-4066-9135-8fe7b3e40450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04-2">
+      <UniqueIdentifier>{88a92c3b-2224-4c5b-a4f6-9a15ef0177c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04-2\problem04_2">
+      <UniqueIdentifier>{25081f1e-6071-4a02-863e-86ff7d413a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04-3">
+      <UniqueIdentifier>{885689c6-d772-43c4-a70b-57b16ab2b898}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RectangleFault.cpp">
+      <Filter>Source Files\04-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\04-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\04-1</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleFaultFind.cpp">
+      <Filter>Source Files\04-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Encaps1.cpp">
+      <Filter>Source Files\04-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Encaps2.cpp">
+      <Filter>Source Files\04-2</Filter>
+    </ClCompile>
+    <ClCompile Include="Point_Circle_Ring.cpp">
+      <Filter>Source Files\04-2\problem04_2</Filter>
+    </ClCompile>
+    <ClCompile Include="FruiSaleSim2.cpp">
+      <Filter>Source Files\04-3</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceMember.cpp">
+      <Filter>Source Files\04-3</Filter>
+    </ClCompile>
+    <ClCompile Include="point_circle_ring_second.cpp">
+      <Filter>Source Files\04-3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>Source Files\04-1</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Source Files\04-1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
